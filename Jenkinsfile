@@ -9,7 +9,6 @@ pipeline
         }
         stage("Compile") 
         {
-            steps{sh “chmod +x gradlew”}
             steps 
                 {
                     sh "chmod +x gradlew"
